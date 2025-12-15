@@ -13,7 +13,8 @@ app.use(express.json());
 
 // Enable CORS for all routes
 app.use(cors({
-  origin: 'http://localhost:5173', // allow your frontend origin
+  origin: 'http://localhost:5173', 
+      'https://front-vercel-mbwhaf2iq-essynjosh353-gmailcoms-projects.vercel.app'// allow your frontend origin
   methods: ['GET','POST','PUT','DELETE'],
 }));
 
