@@ -14,13 +14,11 @@ app.use(express.json());
 // Enable CORS for all routes
 app.use(cors({
     origin: [
-        'http://localhost:5173', // Local development URL
-      'https://front-vercel-git-main-essynjosh353-gmailcoms-projects.vercel.app' // Deployed Vercel URL
-    ], // <--- The array of origins is closed here
-
-    methods: ['GET','POST','PUT','DELETE'], // <--- COMMA is now correctly separating properties
-    
-    credentials: true // Recommended if you use cookies or sessions
+        'http://localhost:5173', // Keep for local testing
+        'https://front-vercel-5kje41g66-essynjosh353-gmailcoms-projects.vercel.app' // <<< THE NEW, CORRECT URL
+    ],
+    methods: ['GET','POST','PUT','DELETE'],
+    credentials: true
 }));
 
 // Routes
