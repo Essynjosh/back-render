@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cors({
     origin: [
         'http://localhost:5173', // Local development URL
-        'https://front-vercel-mbwhaf2iq-essynjosh353-gmailcoms-projects.vercel.app' // Deployed Vercel URL
+      'https://front-vercel-git-main-essynjosh353-gmailcoms-projects.vercel.app' // Deployed Vercel URL
     ], // <--- The array of origins is closed here
 
     methods: ['GET','POST','PUT','DELETE'], // <--- COMMA is now correctly separating properties
