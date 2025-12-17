@@ -1,4 +1,3 @@
-// src/controllers/forms.js
 import { db } from "../db/db.js";
 import { form_submissions } from "../db/schema.js";
 
