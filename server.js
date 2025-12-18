@@ -14,7 +14,6 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
       "https://front-vercel-8gba70mld-essynjosh353-gmailcoms-projects.vercel.app",
     ],
     methods: ["GET", "POST"],
