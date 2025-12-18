@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "https://front-vercel-8gba70mld-essynjosh353-gmailcoms-projects.vercel.app",
+      "https://front-vercel-omega.vercel.app",
     ],
     methods: ["GET", "POST"],
   })
